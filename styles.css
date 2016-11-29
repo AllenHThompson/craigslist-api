@@ -1,0 +1,54 @@
+html {
+     padding: 0;
+     margin: 0;
+     font-family: arial, sans-serif;
+}
+
+body {
+     background: #FFFFFF;
+     background-color: #FFFFFF;
+     padding: 0;
+     margin: 0;
+
+     font-family: arial, sans-serif;
+}
+
+body {
+     padding: 1em;
+
+
+
+}
+
+a {
+     text-decoration: none;
+}
+
+h1 {
+     padding-top: 2em;
+     flex-direction: row 0 0 1;
+     flex: 1;
+}
+
+.buttons {
+     /* flexbox is good for handling containers that have unknown number of items in them. Withouf flexbox we would have to use more css properties for moderators (for alignment) */
+     display: flex;
+
+}
+
+.button {
+     background-color: #9BC850;
+     border-radius: 8px;
+     box-sizing: border-box;
+     color: #fff;
+     display: block;
+     font-size: 1.2em;
+     margin: 0 1em 0.3em 0;
+     padding: 0.5em 1em;
+     text-align: center;
+     flex: 1;
+}
+
+.button-admin {
+     background-color: #A62E5C;
+}
